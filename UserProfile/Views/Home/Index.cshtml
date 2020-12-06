@@ -1,0 +1,66 @@
+﻿@using UserProfile.Views.Components
+
+@{
+    ViewData["Title"] = "Home Page";
+
+
+    IList<BlogModel> blogs = new List<BlogModel>();
+    UserDetails aa = new UserDetails
+    {
+
+        userName = "Pickachu",
+        alias = "pickachuAlias",
+        website = "pickachu.ca",
+        socialUrl = "friends.com/pickachu",
+        email = "pickachu@gmail.com",
+        dob = DateTime.Parse("1989-3-12"),
+
+    };
+
+    blogs.Add(new BlogModel
+    {
+        Name = "Who",
+        Author = new UserDetails { userName = "Pickachu", email = "pickachu@gmail.com" },
+        Content = "Corona in Peel Region",
+        Slug = "Covid"
+    });
+    blogs.Add(new BlogModel
+    {
+        Name = "Food",
+        Author = new UserDetails { userName = "Tom", email = "tom@gmail.com" },
+        Content = "New Outlet Starbuck Got Opened",
+        Slug = "GDP"
+    });
+
+    blogs.Add(new BlogModel
+    {
+        Name = "Health",
+        Author = new UserDetails { userName = "Jerry", email = "jerry@gmail.com" },
+        Content = "Corona in Peel Region",
+        Slug = "Covid"
+    });
+
+
+    blogs.Add(new BlogModel
+    {
+        Name = "WorldBank",
+        Author = new UserDetails { userName = "Tweety", email = "tweety@gmail.com" },
+        Content = "",
+        Slug = "Covid"
+    });
+
+
+
+
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+
+
+@(await Html.RenderComponentAsync<BlogList>(RenderMode.ServerPrerendered, new BlogList { ModelList = blogs }))

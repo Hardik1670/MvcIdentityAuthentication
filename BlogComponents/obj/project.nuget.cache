@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "ZDNVBtcO+ZjjNuC+fFK5NUxh/b2lg1sMJFvXgwRdUw5kWKUsHge2W6LvnlWcuWynE41Y81v7bXpHPk1E4JbzPA==",
+  "dgSpecHash": "U/K9tloPv33D79mVEG5PzqQOtMXq43qjd1Ay9cn5B/kEfEbf8M/zjnNRayGVXEvHTCVbGTfCdtmzDTL2gyW2DA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\navne\\source\\repos\\MVCFriendsSiteHardik\\BlogComponents\\BlogComponents.csproj",
+  "projectFilePath": "C:\\Users\\navne\\source\\repos\\UserProfileBlogs\\BlogComponents\\BlogComponents.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\navne\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.9\\microsoft.aspnetcore.authorization.3.1.9.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.9\\microsoft.aspnetcore.components.3.1.9.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.9\\microsoft.aspnetcore.components.analyzers.3.1.9.nupkg.sha512",

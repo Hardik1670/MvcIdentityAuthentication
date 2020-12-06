@@ -1,0 +1,88 @@
+﻿@using UserProfile.Views.Components
+
+@model IEnumerable<UserProfile.Models.UserDetails>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form asp-controller="UserDetails" asp-action="Index">
+    <p>
+        Username: <input type="text" name="SearchString">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userToSocialFK)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.alias)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.website)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.socialUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dob)
+            </th>
+            <th></th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.userToSocialFK)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.userName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.alias)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.website)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.socialUrl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dob)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

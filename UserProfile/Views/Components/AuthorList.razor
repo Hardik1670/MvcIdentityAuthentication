@@ -1,0 +1,36 @@
+﻿
+@using UserProfile.Models
+<h3>AuthorList</h3>
+
+<table class="table table-light">
+    @foreach (BlogModel blogs in ModelList)
+    {
+    <tr>
+       
+        <!---HERE WANTED TO PLACE ANOTHER FOR EACH BUT I HAVE DIFFERENT BLOGS WITH USERNAME REFERENCE in THE USERDETAILS TABLE---PLEASE HAVE A LOOK ON TABLE-->
+
+        <td>@blogs.Blogs</td>
+        <td>@blogs.Name</td>
+        <td>@blogs.Slug</td>
+        <td>@blogs.Content</td>
+        
+        </tr>
+
+           
+
+        }
+
+
+
+</table>
+
+@code {
+
+    [Parameter]
+    public IEnumerable<BlogModel> ModelList { get; set; }
+  
+    
+
+
+
+}

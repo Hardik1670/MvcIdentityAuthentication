@@ -1,0 +1,14 @@
+﻿
+@using UserProfile.Models
+<h3>@Blog.Name</h3>
+
+
+
+<a href="BlogModels /@Blog.Slug" >@Blog.Name</a>
+
+
+@code {
+
+    [Parameter]
+    public BlogModel Blog { get; set; }
+}

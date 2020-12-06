@@ -24,7 +24,6 @@
     ".NETStandard,Version=v2.0": {
       "BlogComponents/1.0.0": {
         "dependencies": {
-          "EntityFramework": "6.4.4",
           "Microsoft.AspNetCore.Components": "3.1.9",
           "Microsoft.AspNetCore.Components.Web": "3.1.9",
           "NETStandard.Library": "2.0.3",
@@ -711,7 +710,6 @@
           "System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "EntityFramework/6.4.4": {},
       "Microsoft.AspNetCore.Authorization/3.1.9": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "3.1.9",
@@ -883,7 +881,6 @@
     ".NETStandard,Version=v2.0/": {
       "BlogComponents/1.0.0": {
         "dependencies": {
-          "EntityFramework": "6.4.4",
           "Microsoft.AspNetCore.Components": "3.1.9",
           "Microsoft.AspNetCore.Components.Web": "3.1.9",
           "NETStandard.Library": "2.0.3",
@@ -1005,7 +1002,6 @@
           "BlogComponents.dll": {}
         }
       },
-      "EntityFramework/6.4.4": {},
       "Microsoft.AspNetCore.Authorization/3.1.9": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "3.1.9",
@@ -1240,13 +1236,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "EntityFramework/6.4.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
-      "path": "entityframework/6.4.4",
-      "hashPath": "entityframework.6.4.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/3.1.9": {
       "type": "package",

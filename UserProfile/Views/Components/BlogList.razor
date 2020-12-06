@@ -1,0 +1,26 @@
+﻿@using UserProfile.Models
+<h3>Blog List</h3>
+<table class="table table-light">
+
+
+    @foreach (BlogModel blog in ModelList)
+    {
+        <tr>
+            <td>@blog.Author.userName</td>
+            <td>@blog.Name</td>
+            <td>@blog.Slug</td>
+
+
+        </tr>
+    }
+
+
+</table>
+
+@code {
+
+    [Parameter]
+    public IEnumerable<BlogModel> ModelList { get; set; }
+
+
+}
