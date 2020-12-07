@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5mEUeyWv0gkJBoFiypAr8LYZwflQkVmQCGqgfHdsVGuo+muHYX6iZbRo/Rn+GSpSaukE5sm3+SnkeX0ph8zPZw==",
+  "dgSpecHash": "X4E58YYbKIeQKxuCym7XheYAA8YHnau+Nnpm1tSyr5mFKZXsUXaKKVvN6awxZ9JrnkPMe6bmMHC3m4CE5VvwMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\navne\\source\\repos\\MVCFriendsSiteHardik\\MvcFriendsSite\\MvcFriendsSite.csproj",
+  "projectFilePath": "C:\\Users\\navne\\source\\repos\\MvcIdentityAuthentication\\MvcFriendsSite\\MvcFriendsSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\navne\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\navne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.10\\microsoft.aspnetcore.cryptography.internal.3.1.10.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.10\\microsoft.aspnetcore.cryptography.keyderivation.3.1.10.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.0.0\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.0.0.nupkg.sha512",
@@ -30,7 +31,7 @@
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
-    "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.0.0\\microsoft.entityframeworkcore.design.3.0.0.nupkg.sha512",
+    "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0\\microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\3.1.10\\microsoft.entityframeworkcore.sqlite.3.1.10.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\3.1.10\\microsoft.entityframeworkcore.sqlite.core.3.1.10.nupkg.sha512",

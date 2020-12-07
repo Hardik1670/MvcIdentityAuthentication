@@ -22,7 +22,7 @@ namespace MvcFriendsSite.Controllers
         // GET: BlogModels
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Blogs.ToListAsync());
+            return View(await _context.Blogs.Include(p => p.Author).Where(p => p.Author.email == User.Identity.Name).ToListAsync());
         }
 
         // GET: BlogModels/Details/5

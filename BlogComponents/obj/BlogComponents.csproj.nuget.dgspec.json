@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\navne\\source\\repos\\UserProfileBlogs\\BlogComponents\\BlogComponents.csproj": {}
+    "C:\\Users\\navne\\source\\repos\\MvcIdentityAuthentication\\BlogComponents\\BlogComponents.csproj": {}
   },
   "projects": {
-    "C:\\Users\\navne\\source\\repos\\UserProfileBlogs\\BlogComponents\\BlogComponents.csproj": {
+    "C:\\Users\\navne\\source\\repos\\MvcIdentityAuthentication\\BlogComponents\\BlogComponents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\navne\\source\\repos\\UserProfileBlogs\\BlogComponents\\BlogComponents.csproj",
+        "projectUniqueName": "C:\\Users\\navne\\source\\repos\\MvcIdentityAuthentication\\BlogComponents\\BlogComponents.csproj",
         "projectName": "BlogComponents",
-        "projectPath": "C:\\Users\\navne\\source\\repos\\UserProfileBlogs\\BlogComponents\\BlogComponents.csproj",
+        "projectPath": "C:\\Users\\navne\\source\\repos\\MvcIdentityAuthentication\\BlogComponents\\BlogComponents.csproj",
         "packagesPath": "C:\\Users\\navne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navne\\source\\repos\\UserProfileBlogs\\BlogComponents\\obj\\",
+        "outputPath": "C:\\Users\\navne\\source\\repos\\MvcIdentityAuthentication\\BlogComponents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\navne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.Components": {
               "target": "Package",
               "version": "[3.1.9, )"
