@@ -16,6 +16,7 @@ namespace MvcFriendsSite.Models
 
         public ICollection<UserModel> blogToUserFK { get; set; }
 
+        
 
     }
 }

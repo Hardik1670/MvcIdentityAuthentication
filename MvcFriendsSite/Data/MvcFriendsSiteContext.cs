@@ -17,8 +17,9 @@ namespace MvcFriendsSite.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-           /// modelBuilder.Entity<BlogModel>().HasOne<UserModel>;
-            //modelBuilder.Entity<UserModel>().HasMany<BlogModel>;
+            modelBuilder.Entity<BlogModel>().HasOne<UserModel>(p => p.Author).WithMany(p => p.Blogs);
+            modelBuilder.Entity<UserModel>().HasMany<BlogModel>(p => p.Blogs).WithOne(p => p.Author);
+
         }
 
 

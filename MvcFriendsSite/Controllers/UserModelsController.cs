@@ -31,7 +31,8 @@ namespace MvcFriendsSite.Controllers
                 friends = friends.Where(s => s.userName.Contains(searchString));
             }
 
-            return View(await friends.ToListAsync());
+            //return View(await friends.ToListAsync());
+            return View(await friends.Include(p => p.Blogs).ToListAsync());
 
 
         }

@@ -24,11 +24,11 @@ namespace MvcFriendsSite.Controllers
         {
             return View(await _context.Blogs.Include(p => p.Author).Where(p => p.Author.email == User.Identity.Name).ToListAsync());
         }
-
+        
         // GET: BlogModels/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
+            if (id == null || !User.Identity.IsAuthenticated)
             {
                 return NotFound();
             }

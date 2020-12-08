@@ -843,3 +843,7 @@ C:\Users\navne\source\repos\MvcIdentityAuthentication\MvcFriendsSite\obj\Debug\n
 C:\Users\navne\source\repos\MvcIdentityAuthentication\MvcFriendsSite\obj\Debug\netcoreapp3.1\MvcFriendsSite.pdb
 C:\Users\navne\source\repos\MvcIdentityAuthentication\MvcFriendsSite\obj\Debug\netcoreapp3.1\MvcFriendsSite.genruntimeconfig.cache
 C:\Users\navne\source\repos\MvcIdentityAuthentication\MvcFriendsSite\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\navne\source\repos\MvcIdentityAuthentication\MvcFriendsSite\obj\Debug\netcoreapp3.1\RazorDeclaration\Views\Components\SingleBlog.razor.g.cs
+C:\Users\navne\source\repos\MvcIdentityAuthentication\MvcFriendsSite\obj\Debug\netcoreapp3.1\Razor\Views\Components\SingleBlog.razor.g.cs
+C:\Users\navne\source\repos\MvcIdentityAuthentication\MvcFriendsSite\obj\Debug\netcoreapp3.1\RazorDeclaration\Views\Components\BlogEdit.razor.g.cs
+C:\Users\navne\source\repos\MvcIdentityAuthentication\MvcFriendsSite\obj\Debug\netcoreapp3.1\Razor\Views\Components\BlogEdit.razor.g.cs

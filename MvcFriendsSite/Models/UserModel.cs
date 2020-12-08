@@ -47,8 +47,9 @@ namespace MvcFriendsSite.Models
         public DateTime dob { get; set; }
 
         public ICollection<SocialModel> userToSocialFK { get; set; }
+        public ICollection<BlogModel> Blogs { get; set; }
 
-
+       
 
     }
 }

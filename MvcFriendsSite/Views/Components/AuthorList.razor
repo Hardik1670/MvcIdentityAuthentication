@@ -8,10 +8,11 @@
         <tr>
             <th>@author.userName</th>
 
-            foreach (BlogModel blog in author.Blogs)
+            @foreach (BlogModel blog in author.Blogs)
             {
 
-            <td>@author.email</td>
+             //  <td>@blog.Name</td>
+             <td><SingleBlog Blog="@blog" Url="@Url"/></td>
 
             }
         </tr>
@@ -26,6 +27,8 @@
 
     [Parameter]
     public IEnumerable<UserModel> ModelList { get; set; }
+    [Parameter]
+    public string Url { get; set; }
 
 
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X4E58YYbKIeQKxuCym7XheYAA8YHnau+Nnpm1tSyr5mFKZXsUXaKKVvN6awxZ9JrnkPMe6bmMHC3m4CE5VvwMQ==",
+  "dgSpecHash": "w8dm8AhBo8pN0607eAcPFO29K0PU5rnIqyWIoOnQt0GousiMoneP/0+wOA3Ctk0FYV+ZyuzQkPhbG/sHa4GiBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\navne\\source\\repos\\MvcIdentityAuthentication\\MvcFriendsSite\\MvcFriendsSite.csproj",
   "expectedPackageFiles": [
@@ -36,7 +36,7 @@
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\3.1.10\\microsoft.entityframeworkcore.sqlite.3.1.10.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\3.1.10\\microsoft.entityframeworkcore.sqlite.core.3.1.10.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.0\\microsoft.entityframeworkcore.sqlserver.5.0.0.nupkg.sha512",
-    "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.0.0\\microsoft.entityframeworkcore.tools.3.0.0.nupkg.sha512",
+    "C:\\Users\\navne\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.0\\microsoft.entityframeworkcore.tools.5.0.0.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\navne\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

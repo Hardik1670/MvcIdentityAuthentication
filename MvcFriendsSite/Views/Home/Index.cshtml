@@ -47,8 +47,7 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-@if (User.Identity.IsAuthenticated)
-{
+@*Null Pointer Exception
+    @(await Html.RenderComponentAsync<BlogEdit>(RenderMode.ServerPrerendered, new BlogEdit{baseUrl = "/BlogModels"}))
 
-    @(await Html.RenderComponentAsync<BlogList>(RenderMode.ServerPrerendered, new BlogList { ModelList = blogs }))
-}
+*@

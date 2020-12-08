@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MvcFriendsSite.Data;
 
 namespace MvcFriendsSite.Migrations
 {
     [DbContext(typeof(MvcFriendsSiteContext))]
-    partial class MvcFriendsSiteContextModelSnapshot : ModelSnapshot
+    [Migration("20201207055240_hardikMigration")]
+    partial class hardikMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
